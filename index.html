@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Favourite Games</title>
+    <title>Game Mixy</title>
 </head>
 
 <style>
@@ -18,7 +18,7 @@
     
     .card:hover {
         background: rgb(10, 7, 101);
-        background: linear-gradient(90deg, rgba(10, 7, 101, 1) 0%, rgba(121, 9, 9, 1) 77%, rgba(255, 0, 18, 1) 100%);
+        background: linear-gradient( 90deg, rgba(10, 7, 101, 1) 0%, rgba(121, 9, 9, 1) 77%, rgba(255, 0, 18, 1) 100%);
     }
     
     .desc h1 {
@@ -42,12 +42,14 @@
         border-radius: 30px;
         width: 25%;
         background-color: black;
+        margin: 2.5%;
     }
     
     .desc {
-        text-align: center;
+        /* text-align: center; */
         font-family: "Press Start 2P", cursive;
         color: linen;
+        margin: 10%;
     }
     
     .font {
@@ -64,109 +66,150 @@
         border-image-outset: 30px;
     }
     
+    .img {
+        margin: 10%;
+    }
+    
     .cards {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-top: 10%;
     }
 </style>
 
 <body>
-    <h1>My Favourite Gamez 2020</h1>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="cards">
-        <div class="card">
-            <div class="img">
-                <img src="https://www.brawlhalla.com/c/uploads/2019/09/Logo_BrawlhallaHammer.png" alt="brawlhalla_logo" />
+    <h1>Game Mixy</h1>
+    <section class="front">
+
+    </section>
+
+    <section class="game-cards">
+        <div class="cards">
+            <div class="card">
+                <div class="img">
+                    <img src="https://www.brawlhalla.com/c/uploads/2019/09/Logo_BrawlhallaHammer.png" alt="brawlhalla_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Brawlhalla</h1>
+                    <hr />
+                    <p>
+                        Brawlhalla is a free-to-play 2D fighting game developed by Blue Mammoth Games for Microsoft Windows, macOS, PlayStation 4, Xbox One, Nintendo Switch, Android, and iOS, with full cross-play across all platforms.
+                    </p>
+                </div>
             </div>
-            <div class="desc">
-                <h1>Brawlhalla</h1>
-                <hr />
-                <p>
-                    Brawlhalla is a free-to-play 2D fighting game developed by Blue Mammoth Games for Microsoft Windows, macOS, PlayStation 4, Xbox One, Nintendo Switch, Android, and iOS, with full cross-play across all platforms.
-                </p>
+            <div class="card">
+                <div class="img">
+                    <img src="https://techsquiral.io/wp-content/uploads/2020/03/Minecraft-Apk.png" alt="minecraft_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Minecraft</h1>
+                    <hr />
+                    <p>
+                        Minecraft is a sandbox video game developed by Mojang Studios. The game was originally created by Markus "Notch" Persson in the Java programming language.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62ad8921-7468-410e-ae0e-103ede928999/d66aqoy-bbc92f05-9627-4230-a814-d012876e9043.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjJhZDg5MjEtNzQ2OC00MTBlLWFlMGUtMTAzZWRlOTI4OTk5XC9kNjZhcW95LWJiYzkyZjA1LTk2MjctNDIzMC1hODE0LWQwMTI4NzZlOTA0My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.zTiJQcSqLoW9wBiB0I4mhQYAJFehwUIkfrzFh1CaJiE"
+                        alt="nfs_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Need for Speed Rivals</h1>
+                    <hr />
+                    <p>
+                        Need for Speed Rivals is a racing video game developed in a collaboration between Ghost Games and Criterion Games, and published by Electronic Arts.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://www.callofduty.com/content/dam/atvi/callofduty/blackops4/home/BO4-logo.png" alt="cod_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Call Of Duty:<br />Black Ops 4</h1>
+                    <hr />
+                    <p>
+                        Call of Duty: Black Ops 4 is a 2018 multiplayer first-person shooter developed by Treyarch and published by Activision. It was released worldwide for Microsoft Windows, PlayStation 4, and Xbox One on October 12, 2018.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://www.among-us.io/wp-content/uploads/2020/09/among-us-logo.png" alt="among_us_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Among Us</h1>
+                    <hr />
+                    <p>
+                        Among Us, is an online multiplayer social deduction game developed and published by American game studio InnerSloth and released on June 15, 2018. The game takes place in a space-themed setting, in which players each take on one of two roles, most being
+                        Crewmates, and a predetermined number being Impostors.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://seeklogo.com/images/F/fall-guys-logo-0809CCA0D8-seeklogo.com.png" alt="fall_guys_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Fall Guys</h1>
+                    <hr />
+                    <p>
+                        Fall Guys: Ultimate Knockout is a platformer battle royale game developed by Mediatonic and published by Devolver Digital. It released for Microsoft Windows and PlayStation 4 on 4 August 2020.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://www.gearboxpublishing.com/wp-content/uploads/2017/10/hn_logo.png" alt="hn_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Hello Neighbor</h1>
+                    <hr />
+                    <p>
+                        Hello Neighbor is a stealth horror game about sneaking into your neighbor's house to figure out what horrible secrets he's hiding in the basement. You play against an advanced AI that learns from your every move.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Red-Dead-Redemption-Logo.svg/1280px-Red-Dead-Redemption-Logo.svg.png" alt="rd_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Red Dead Redemption</h1>
+                    <hr />
+                    <p>
+                        Red Dead Redemption is a 2010 action-adventure game developed by Rockstar San Diego and published by Rockstar Games. A spiritual successor to 2004's Red Dead Revolver, it is the second game in the Red Dead series.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Super_Mario_Bros._Logo.svg/1200px-Super_Mario_Bros._Logo.svg.png" alt="rd_logo" />
+                </div>
+                <div class="desc">
+                    <h1>Super Mario Bros.</h1>
+                    <hr />
+                    <p>
+                        Super Mario is a platform game series and media franchise created by Nintendo and featuring their mascot, Mario. Alternatively called the Super Mario Bros. series or simply the Mario series, it is the central series of the greater Mario franchise.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div class="img">
-                <img src="https://techsquiral.io/wp-content/uploads/2020/03/Minecraft-Apk.png" alt="minecraft_logo" />
-            </div>
-            <div class="desc">
-                <h1>Minecraft</h1>
-                <hr />
-                <p>
-                    Minecraft is a sandbox video game developed by Mojang Studios. The game was originally created by Markus "Notch" Persson in the Java programming language.
-                </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62ad8921-7468-410e-ae0e-103ede928999/d66aqoy-bbc92f05-9627-4230-a814-d012876e9043.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjJhZDg5MjEtNzQ2OC00MTBlLWFlMGUtMTAzZWRlOTI4OTk5XC9kNjZhcW95LWJiYzkyZjA1LTk2MjctNDIzMC1hODE0LWQwMTI4NzZlOTA0My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.zTiJQcSqLoW9wBiB0I4mhQYAJFehwUIkfrzFh1CaJiE"
-                    alt="nfs_logo" />
-            </div>
-            <div class="desc">
-                <h1>Need for Speed Rivals</h1>
-                <hr />
-                <p>
-                    Need for Speed Rivals is a racing video game developed in a collaboration between Ghost Games and Criterion Games, and published by Electronic Arts.
-                </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <img src="https://www.callofduty.com/content/dam/atvi/callofduty/blackops4/home/BO4-logo.png" alt="cod_logo" />
-            </div>
-            <div class="desc">
-                <h1>Call Of Duty:<br />Black Ops 4</h1>
-                <hr />
-                <p>
-                    Call of Duty: Black Ops 4 is a 2018 multiplayer first-person shooter developed by Treyarch and published by Activision. It was released worldwide for Microsoft Windows, PlayStation 4, and Xbox One on October 12, 2018.
-                </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <img src="https://www.among-us.io/wp-content/uploads/2020/09/among-us-logo.png" alt="among_us_logo" />
-            </div>
-            <div class="desc">
-                <h1>Among Us</h1>
-                <hr />
-                <p>
-                    Among Us, is an online multiplayer social deduction game developed and published by American game studio InnerSloth and released on June 15, 2018. The game takes place in a space-themed setting, in which players each take on one of two roles, most being
-                    Crewmates, and a predetermined number being Impostors.
-                </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <img src="https://seeklogo.com/images/F/fall-guys-logo-0809CCA0D8-seeklogo.com.png" alt="fall_guys_logo" />
-            </div>
-            <div class="desc">
-                <h1>Fall Guys</h1>
-                <hr />
-                <p>
-                    Fall Guys: Ultimate Knockout is a platformer battle royale game developed by Mediatonic and published by Devolver Digital. It released for Microsoft Windows and PlayStation 4 on 4 August 2020.
-                </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img">
-                <img src="https://www.gearboxpublishing.com/wp-content/uploads/2017/10/hn_logo.png" alt="hn_logo" />
-            </div>
-            <div class="desc">
-                <h1>Hello Neighbor</h1>
-                <hr />
-                <p>
-                    Hello Neighbor is a stealth horror game about sneaking into your neighbor's house to figure out what horrible secrets he's hiding in the basement. You play against an advanced AI that learns from your every move.
-                </p>
-            </div>
-        </div>
-    </div>
+    </section>
+
+    <section class="subscription-form">
+        <h1>Subscribe to Game Mixy:</h1>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
 </body>
 
 </html>
